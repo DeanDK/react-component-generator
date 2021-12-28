@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "ESNext"
+    ],
+    "rootDir": "src",
+    "outDir": "bin",
+    "baseUrl": "src",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "useUnknownInCatchVariables": false,
+    "downlevelIteration": true
+  },
+  "include": [
+    "src",
+    "src/init/rc-template.json",
+  ]
+}
